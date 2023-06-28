@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 980px;
+    margin: 0 auto;
+}
+.logo{
+    width: 980px;
+    height: 150px;
+    background-color: #bcd4f4;
+    text-align: center;
+    padding-top: 20px;
+}
+.logo img{
+    width: 100px;
+    height: 110px;
+ 
+}
+.menu{
+    display: flex;
+    width: 980px;
+    height: 40px;
+    background-color: #14294b;
+    text-align: center;
+    justify-content: center;
+    font-size: 15px;
+}
+.nav-menu{
+    display: flex;
+
+}
+.nav-menu li{
+    list-style: none;
+    margin: 0 20px;
+   
+   
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: white;
+
+
+}
+.nav-menu li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.banner{
+    padding: 20px 0;
+}
+.banner img{
+    width: 980px;
+    height: 270px;
+}
+.banner img:hover{
+    opacity: 50%;
+    border: 1px dashed #f00;
+}
+form{
+    width: 980px;
+    height: 60px;
+    background-color: #14294b;
+    line-height: 60px;
+    padding-left: 20px;
+}
+form .box{
+    width: 750px;
+    height: 30px;
+}
+form .seach{
+    width: 120px;
+    height: 30px;
+    background-color: orange;
+    color: white;
+    
+}
+
+form .seach:hover{
+    border: 1px solid red;
+    color: blue;
+}
+.rows-01{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 20px;
+}
+.column{
+    width: 480px;
+    height: 370px;
+    border: 1px solid orange;
+}
+.column-img{
+    padding: 20px 10px 20px 30px;
+}
+.column-img img{
+    width: 420px;
+    height: 240px;
+  
+}
+.column-img img:hover{
+    opacity: 50%;
+    border: 1px dashed #f00;
+}
+.column-new {
+    padding: 0 30px ;
+}
+.column-new h3 a{
+    text-decoration: none;
+} 
+.column-new h3 a:hover{
+    color: #ad4601;
+    text-decoration: underline;
+}
+.rows-02{
+    padding-top: 20px;
+}
+.nav-column{
+    width: 980px;
+    height: 300px;
+    border: 1px solid orange;
+    display: flex;
+}
+.nav-img{
+    padding: 20px 10px 20px 30px;
+}
+.nav-img img{
+    width: 440px;
+    height: 260px;
+}
+.nav-img img:hover{
+    opacity: 50%;
+    border: 1px dashed #f00;
+}
+.nav-new{
+    padding-left: 20px;
+}
+.nav-new h3 a{
+      text-decoration: none;
+}
+.nav-new h3 a:hover{
+    text-decoration: underline;
+    color: #ad4601;
+}
+.nav-new p:hover{
+    text-decoration: underline;
+    color: #f00;
+}
+.footer{
+     width: 980px;
+     height: 110px;
+     text-align: center;
+     line-height: 120px;
+    background-color: #bcd4f4;
+    color: white;
+}

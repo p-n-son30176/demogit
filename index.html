@@ -4,28 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xây Dựng Trang Web</title>
+    <title>Document</title>
     <link rel="stylesheet" href="/style.css">
-    <style>
-         h1{
-            color :aqua !important;
-         }
-
-    </style>
 </head>
 <body>
-    <h1 style = "color: blue;">Xây Dựng Trang Web</h1>
-    <h2>Trường Cao Đẳng FPT Polytechnick</h2>
-    <h3>Thực Học - Thực Nghiệp</h3>
-    <p>Assignment yêu cầu sinh viên tiến hành nghiên cứu và xây dụng một website về trường 
-        PTTH của mình. Website cần tối thiểu là 5 trang gồm trang chủ, giới thiệu, liên hệ, góp ý, hỏi 
-        đáp. Ngoài ra bạn còn có thể bổ sung thêm số lượng trang về các chủ đề tùy ý: hoạt động văn 
-        nghê-thể thao, câu lạc bộ học tập, thư viện, dành cho phụ huynh, dành cho cựu học sinh... 
-         <!-- line-height - Khoảng cách dòng
-               word-spacing - Khoảng cách giữa các từ
-                letter-spacing - Khoảng cách giữa các ký tự 
-                -- >
-         
-        </p>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="/Img/logo.png" alt="">
+            </div>
+            <div class="menu">
+                <ul class="nav-menu">
+                    <li><a href="">WORLD CUP 2018</a></li>
+                    <li><a href="">LỊCH THI ĐẤU</a></li>
+                    <li><a href="">LIVE</a></li>
+                    <li><a href="">KẾT QUẢ</a></li>
+                    <li><a href="">BÌNH LUẬN</a></li>
+                    <li><a href="">ẢNH VÀ VIDEO</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="banner">
+            <img src="/Img/banner.jpg" alt="">
+        </div>
+        <form action="">
+            <input class="box" type="text" placeholder="Tìm kiếm thông tin  WorldCup 2018..." required>
+            <input class="seach" type="submit" value="Tìm kiếm">
+        </form>
+        <div class="content">
+            <div class="rows-01">
+                <div class="column">
+                    <div class="column-img">
+                        <img src="/Img/img1.jpg" alt="">
+                    </div>
+                    <div class="column-new">
+                        <h3><a href="">
+                            Trận Nhật Bản - Colombia: Bắt nạt "võ sỹ  <br>
+                            Samurai" được không?
+                        </a></h3>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="column-img">
+                        <img src="/Img/img1.jpg" alt="">
+                    </div>
+                    <div class="column-new">
+                        <h3><a href="">
+                            Trận Nhật Bản - Colombia: Bắt nạt "võ sỹ  <br>
+                            Samurai" được không?
+                        </a></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="rows-02">
+                <div class="nav-column">
+                    <div class="nav-img">
+                        <img src="/Img/img3.jpg" alt="">
+                    </div>
+                    <div class="nav-new">
+                        <h3><a href="">
+                            Kèo "thơm" Colombia vs Nhật Bản: Át vía <br> 
+                            châu Á
+                        </a></h3>
+                        <p>
+                            Trong quá khứ, Colombia luôn áp đảo khi đối đầu với Nhật Bản.  <br>
+                            Đã 3 lần hai đôi gặp nhau và đại diện Nam Mỹ có 2 chiến <br>
+                            thắng, ghi 5 bàn. Trong lần gần nhất đối mặt, Comlombia đã hạ<br>
+                            gục Nhật Bản với tỷ số đậm,  ở World Cup 2014
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p><b>PHẠM NGỌC SƠN - PH30176</b></p>
+        </div>
+    </div>
 </body>
 </html>
